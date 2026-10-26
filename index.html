@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+</head>
+<body>
+     <!名前（ニックネーム）>
+    <h1>タスタス</h1>
+
+    <h2>自己紹介</h2>
+    <p>
+        最近htmlを使い始めました、、、難しい。
+    </p>
+
+    <h2>趣味</h2>
+    <ul>
+        <li>ゲーム</li>
+        <li>絵を描くこと</li>
+        <li>ものを集める</li>
+    </ul>
+
+    <h2>好きな食べ物</h2>
+    <ol>
+        <li>寿司</li>
+        <li>スナック菓子</li>
+        <li>ラーメン</li>
+    </ol>
+
+    <h2>今の心情</h2>
+    <a href="test2.html">心情</a>
+
+    <h2>１週間の予定</h2>
+    <table border="1">
+        <tr>
+            <th>月曜日</th>
+            <td>休み</td>
+        </tr>
+        <tr>
+            <th>火曜日</th>
+            <td>午前-休み</td>
+            <td>午後-オンライン</td>
+        </tr>
+        <tr>
+            <th>水曜日</th>
+            <td>帰宅後-インストール</td>
+        </tr>
+        <tr>
+            <th>水曜日</th>
+            <td>帰ってすぐご飯</td>
+        </tr>
+        <tr>
+            <th>金曜日</th>
+            <td>予定あり</td>
+        </tr>
+    </table>
+
+
+    <h2>このページの感想を送る</h2>
+    <form method="get">
+        <dl>
+            <dt><label for="name">お名前</label></dt>
+            <dd><input type="text" id="name" name="name"></dd>
+            <dt>一番良かった所</dt>
+        <dd>
+            <label><input type="radio" name="best" value="photo">写真</label>
+            <label><input type="radio" name="best" value="list">好きなもの</label>
+            <label><input type="radio" name="best" value="table">１週間の予定表</label>
+        </dd>
+        <dt><label for="comment">感想</label></dt>
+        <dd><textarea id="comment" name="comment" rows="4"></textarea></dd>
+        </dl>
+            <button type="submit">送信する</button>
+        </p>
+
+    </form>
+
+</body>
+</html>
